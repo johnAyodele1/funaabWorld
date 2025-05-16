@@ -10,6 +10,9 @@ COPY package*.json ./
 # Install app dependencies
 RUN npm install --production
 
+# Install resend package separately to avoid version issues
+# Removed resend install as it was causing issues and is no longer in package.json
+
 # Bundle app source
 COPY . .
 

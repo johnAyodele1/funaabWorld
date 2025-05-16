@@ -16,7 +16,6 @@
     "bcrypt": "^5.1.0",
     "jsonwebtoken": "^9.0.0",
     "multer": "^1.4.5-lts.1",
-    "axios": "^1.4.0",
-    "resend": "^0.3.0"
+    "axios": "^1.4.0"
   }
 }
